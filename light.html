@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>빛의 진행 방향 | 일월식 오해 바로잡기</title>
+
+  <link rel="stylesheet" href="light.css">
+  <script src="light.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <a href="index.html" class="logo">ECLIPSE LAB</a>
+
+    <nav>
+      <a href="index.html">홈</a>
+      <a href="light.html" class="active">빛의 진행 방향</a>
+      <a href="lunar.html">개기월식의 붉은색</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 메인 소개 -->
+    <section class="hero">
+      <span class="eyebrow">MISCONCEPTION 01</span>
+
+      <h1>
+        빛은 어떤 방향으로<br>
+        진행할까?
+      </h1>
+
+      <p>
+        태양에서 출발한 빛은 정말 모두 평행하게 진행할까?
+        광원의 특성부터 실제 태양광의 진행 방향까지 살펴보자.
+      </p>
+    </section>
+
+    <!-- 주제 선택 -->
+    <section class="content-section">
+      <div class="section-heading">
+        <span class="eyebrow">EXPLORE THE LIGHT</span>
+
+        <h2>빛의 진행에 관한 두 가지 오해</h2>
+
+        <p>
+          각 주제를 선택해 직접 조작하거나 과학적 해설을 확인해 보자.
+        </p>
+      </div>
+
+      <div class="topic-grid">
+
+        <!-- 점광원과 면광원 -->
+        <article class="topic-card">
+          <div class="topic-number">01</div>
+
+          <div class="topic-illustration source-illustration">
+            <svg viewBox="0 0 400 190" role="img" aria-label="점광원과 면광원">
+
+              <defs>
+                <marker
+                  id="cardRayArrow"
+                  markerWidth="7"
+                  markerHeight="7"
+                  refX="5"
+                  refY="3"
+                  orient="auto"
+                >
+                  <path
+                    d="M0 0 L6 3 L0 6"
+                    fill="none"
+                    stroke="#f5c75e"
+                    stroke-width="1.2"
+                  />
+                </marker>
+              </defs>
+
+              <!-- 점광원 -->
+              <circle cx="90" cy="90" r="5" fill="#ffe18a"/>
+
+              <g
+                stroke="#f5c75e"
+                stroke-width="1.5"
+                fill="none"
+                marker-end="url(#cardRayArrow)"
+              >
+                <path d="M90 90 L20 30"/>
+                <path d="M90 90 L20 90"/>
+                <path d="M90 90 L20 150"/>
+                <path d="M90 90 L160 30"/>
+                <path d="M90 90 L160 90"/>
+                <path d="M90 90 L160 150"/>
+              </g>
+
+              <line
+                x1="200"
+                y1="20"
+                x2="200"
+                y2="170"
+                stroke="#43516a"
+                stroke-dasharray="4 5"
+              />
+
+              <!-- 면광원 -->
+              <rect
+                x="285"
+                y="48"
+                width="20"
+                height="84"
+                rx="10"
+                fill="#f5c75e"
+              />
+
+              <g
+                stroke="#f5c75e"
+                stroke-width="1.5"
+                fill="none"
+                marker-end="url(#cardRayArrow)"
+              >
+                <path d="M285 50 L225 20"/>
+                <path d="M285 50 L225 70"/>
+                <path d="M285 90 L225 90"/>
+                <path d="M285 130 L225 110"/>
+                <path d="M305 50 L375 20"/>
+                <path d="M305 50 L375 70"/>
+                <path d="M305 90 L375 90"/>
+                <path d="M305 130 L375 110"/>
+              </g>
+
+              <text
+                x="90"
+                y="180"
+                text-anchor="middle"
+                fill="#c7d2e3"
+                font-size="12"
+              >
+                점광원
+              </text>
+
+              <text
+                x="295"
+                y="180"
+                text-anchor="middle"
+                fill="#c7d2e3"
+                font-size="12"
+              >
+                면광원
+              </text>
+
+            </svg>
+          </div>
+
+          <div class="topic-card-content">
+            <span class="topic-category">광원의 종류</span>
+
+            <h3>점광원과 면광원</h3>
+
+            <p>
+              광원의 크기를 바꾸면 빛의 출발점과 그림자는 어떻게 달라질까?
+            </p>
+
+            <div class="card-actions">
+              <button
+                class="primary-button"
+                data-topic="source"
+                data-action="visual"
+              >
+                시각 자료 보기
+              </button>
+
+              <button
+                class="secondary-button"
+                data-topic="source"
+                data-action="explanation"
+              >
+                해설 보기
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 태양광의 진행 -->
+        <article class="topic-card">
+          <div class="topic-number">02</div>
+
+          <div class="topic-illustration path-illustration">
+            <svg viewBox="0 0 400 190" role="img" aria-label="태양에서 출발한 빛">
+
+              <defs>
+                <marker
+                  id="cardPathArrow"
+                  markerWidth="7"
+                  markerHeight="7"
+                  refX="5"
+                  refY="3"
+                  orient="auto"
+                >
+                  <path
+                    d="M0 0 L6 3 L0 6"
+                    fill="none"
+                    stroke="#f5c75e"
+                    stroke-width="1.2"
+                  />
+                </marker>
+              </defs>
+
+              <!-- 태양 -->
+              <circle cx="65" cy="90" r="30" fill="#f5a623"/>
+              <circle cx="65" cy="90" r="24" fill="#ffd36a"/>
+
+              <!-- 물체 -->
+              <circle cx="200" cy="90" r="12" fill="#8d9caf"/>
+
+              <path
+                d="M190 83 L200 72 L210 83 L207 98 L193 98 Z"
+                fill="#aebbd0"
+              />
+
+              <!-- 광선 -->
+              <g
+                stroke="#f5c75e"
+                stroke-width="2"
+                fill="none"
+                marker-end="url(#cardPathArrow)"
+              >
+                <path d="M65 60 L200 78 L345 58"/>
+                <path d="M65 90 L200 90 L345 90"/>
+                <path d="M65 120 L200 102 L345 122"/>
+              </g>
+
+              <text
+                x="65"
+                y="155"
+                text-anchor="middle"
+                fill="#c7d2e3"
+                font-size="12"
+              >
+                태양
+              </text>
+
+              <text
+                x="200"
+                y="155"
+                text-anchor="middle"
+                fill="#c7d2e3"
+                font-size="12"
+              >
+                물체
+              </text>
+
+              <text
+                x="345"
+                y="155"
+                text-anchor="middle"
+                fill="#c7d2e3"
+                font-size="12"
+              >
+                관찰면
+              </text>
+
+            </svg>
+          </div>
+
+          <div class="topic-card-content">
+            <span class="topic-category">태양광의 진행</span>
+
+            <h3>태양광은 정말 평행할까?</h3>
+
+            <p>
+              태양의 크기와 물체의 위치에 따라 그림자는 어떻게 달라질까?
+            </p>
+
+            <div class="card-actions">
+              <button
+                class="primary-button"
+                data-topic="path"
+                data-action="visual"
+              >
+                시각 자료 보기
+              </button>
+
+              <button
+                class="secondary-button"
+                data-topic="path"
+                data-action="explanation"
+              >
+                해설 보기
+              </button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 마무리 -->
+    <section class="closing-section">
+      <span class="eyebrow">THINK ABOUT IT</span>
+
+      <h2>
+        우리가 보는 빛은<br>
+        항상 같은 방향으로 진행할까?
+      </h2>
+
+      <p>
+        빛의 진행 방향을 이해하면 일식과 월식에서 나타나는 그림자와
+        빛의 경로도 더 정확하게 이해할 수 있다.
+      </p>
+    </section>
+  </main>
+
+  <!-- 푸터 -->
+  <footer>
+    <p>ECLIPSE LAB · 일월식에 관한 오해 바로잡기</p>
+  </footer>
+
+
+  <!-- =====================================
+       모달
+  ====================================== -->
+
+  <div
+    class="modal"
+    id="modal"
+    aria-hidden="true"
+  >
+
+    <div
+      class="modal-window"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modalTitle"
+    >
+
+      <!-- 모달 헤더 -->
+      <div class="modal-header">
+
+        <div>
+          <span class="eyebrow" id="modalEyebrow">
+            EXPLORE
+          </span>
+
+          <h2 id="modalTitle">
+            시각 자료
+          </h2>
+        </div>
+
+        <button
+          class="modal-close"
+          id="modalClose"
+          aria-label="닫기"
+        >
+          ×
+        </button>
+
+      </div>
+
+
+      <!-- 모달 본문 -->
+      <div class="modal-body">
+
+        <!-- =================================
+             시각 자료 영역
+        ================================== -->
+
+        <div
+          id="visualContent"
+          class="modal-content"
+        >
+
+          <!-- ---------------------------------
+               실험 1: 점광원과 면광원
+          ---------------------------------- -->
+
+          <section
+            class="visual-panel"
+            id="sourcePanel"
+            hidden
+          >
+
+            <div class="interactive-intro">
+
+              <span class="learning-kicker">
+                INTERACTIVE EXPERIMENT · 01
+              </span>
+
+              <h3>광원의 크기를 직접 바꿔 보자</h3>
+
+              <p>
+                광원 크기와 관찰면까지의 거리를 조절하며
+                광선과 그림자의 변화를 확인해 봐.
+              </p>
+
+            </div>
+
+
+            <!-- 광원 모드 선택 -->
+            <div class="experiment-toolbar">
+
+              <div
+                class="segmented-buttons"
+                role="group"
+                aria-label="광원 모델 선택"
+              >
+
+                <button
+                  class="mode-button active"
+                  data-source-mode="extended"
+                >
+                  크기가 있는 광원
+                </button>
+
+                <button
+                  class="mode-button"
+                  data-source-mode="point"
+                >
+                  점광원 근사
+                </button>
+
+              </div>
+
+            </div>
+
+
+            <!-- 시뮬레이션 -->
+            <div class="simulation-frame">
+
+              <svg
+                id="sourceSvg"
+                viewBox="0 0 760 360"
+                role="img"
+                aria-label="광원에서 물체를 거쳐 관찰면에 도달하는 빛과 그림자"
+              >
+
+                <defs>
+                  <linearGradient
+                    id="sourceGlow"
+                    x1="0"
+                    x2="1"
+                  >
+                    <stop offset="0" stop-color="#ffd36a"/>
+                    <stop offset="1" stop-color="#f5a623"/>
+                  </linearGradient>
+                </defs>
+
+                <!-- 그림자 -->
+                <g id="sourceShadow"></g>
+
+                <!-- 광선 -->
+                <g id="sourceRays"></g>
+
+                <!-- 광원 -->
+                <g id="sourceBody">
+
+                  <rect
+                    id="sourceEmitter"
+                    x="70"
+                    y="115"
+                    width="18"
+                    height="130"
+                    rx="9"
+                    fill="url(#sourceGlow)"
+                  />
+
+                  <circle
+                    id="pointEmitter"
+                    cx="79"
+                    cy="180"
+                    r="7"
+                    fill="#ffe18a"
+                    hidden
+                  />
+
+                </g>
+
+                <!-- 물체 -->
+                <rect
+                  id="sourceObject"
+                  x="350"
+                  y="150"
+                  width="18"
+                  height="60"
+                  rx="4"
+                  fill="#aebbd0"
+                />
+
+                <!-- 관찰면 -->
+                <line
+                  x1="680"
+                  y1="45"
+                  x2="680"
+                  y2="315"
+                  stroke="#9baac0"
+                  stroke-width="4"
+                />
+
+                <text
+                  x="79"
+                  y="335"
+                  fill="#c7d2e3"
+                  text-anchor="middle"
+                  font-size="14"
+                >
+                  광원
+                </text>
+
+                <text
+                  x="359"
+                  y="335"
+                  fill="#c7d2e3"
+                  text-anchor="middle"
+                  font-size="14"
+                >
+                  물체
+                </text>
+
+                <text
+                  x="680"
+                  y="335"
+                  fill="#c7d2e3"
+                  text-anchor="middle"
+                  font-size="14"
+                >
+                  관찰면
+                </text>
+
+              </svg>
+
+            </div>
+
+
+            <!-- 실험 조절 -->
+            <div class="experiment-controls">
+
+              <!-- 광원 크기 -->
+              <label
+                class="control-row"
+                for="sourceSize"
+              >
+
+                <span>광원 크기</span>
+
+                <output id="sourceSizeValue">
+                  100%
+                </output>
+
+                <input
+                  id="sourceSize"
+                  type="range"
+                  min="0"
+                  max="100"
+                  value="100"
+                />
+
+              </label>
+
+
+              <!-- 물체 위치 -->
+              <label
+                class="control-row"
+                for="sourceObjectPosition"
+              >
+
+                <span>물체의 위치</span>
+
+                <output id="sourceObjectPositionValue">
+                  45%
+                </output>
+
+                <input
+                  id="sourceObjectPosition"
+                  type="range"
+                  min="0"
+                  max="100"
+                  value="45"
+                />
+
+              </label>
+
+
+              <!-- 광선 표시 -->
+              <label
+                class="control-row"
+                for="sourceShowRays"
+              >
+
+                <span>빛의 경로 표시</span>
+
+                <input
+                  id="sourceShowRays"
+                  type="checkbox"
+                  checked
+                />
+
+              </label>
+
+
+              <!-- 초기화 버튼: 항상 동일한 위치 -->
+              <div class="experiment-actions">
+
+                <button
+                  class="secondary-button"
+                  id="sourceReset"
+                >
+                  초기화
+                </button>
+
+              </div>
+
+            </div>
+
+
+            <!-- 실시간 관찰 내용 -->
+            <p
+              class="live-observation"
+              id="sourceStatus"
+              aria-live="polite"
+            >
+              광원의 크기를 바꿔 보세요.
+            </p>
+
+          </section>
+
+
+          <!-- ---------------------------------
+               실험 2: 태양광의 진행
+          ---------------------------------- -->
+
+          <section
+            class="visual-panel"
+            id="pathPanel"
+            hidden
+          >
+
+            <div class="interactive-intro">
+
+              <span class="learning-kicker">
+                INTERACTIVE EXPERIMENT · 02
+              </span>
+
+              <h3>태양광은 얼마나 평행할까?</h3>
+
+              <p>
+                태양의 크기와 물체의 위치를 바꾸며
+                실제 광선과 평행광선 근사를 비교해 봐.
+              </p>
+
+            </div>
+
+
+            <!-- 광선 모드 선택 -->
+            <div class="experiment-toolbar">
+
+              <div
+                class="segmented-buttons"
+                role="group"
+                aria-label="광선 모델 선택"
+              >
+
+                <button
+                  class="mode-button active"
+                  data-path-mode="actual"
+                >
+                  실제 태양광
+                </button>
+
+                <button
+                  class="mode-button"
+                  data-path-mode="parallel"
+                >
+                  평행광선 근사
+                </button>
+
+              </div>
+
+            </div>
+
+
+            <!-- 시뮬레이션 -->
+            <div class="simulation-frame">
+
+              <svg
+                id="pathSvg"
+                viewBox="0 0 760 360"
+                role="img"
+                aria-label="태양과 물체, 관찰면 및 광선의 진행"
+              >
+
+                <!-- 그림자 -->
+                <g id="pathShadow"></g>
+
+                <!-- 광선 -->
+                <g id="pathRays"></g>
+
+                <!-- 태양 -->
+                <circle
+                  cx="80"
+                  cy="180"
+                  r="42"
+                  fill="#f5a623"
+                />
+
+                <circle
+                  cx="80"
+                  cy="180"
+                  r="34"
+                  fill="#ffd36a"
+                />
+
+                <!-- 물체 -->
+                <rect
+                  id="pathOccluder"
+                  x="350"
+                  y="150"
+                  width="18"
+                  height="60"
+                  rx="4"
+                  fill="#aebbd0"
+                />
+
+                <!-- 관찰면 -->
+                <line
+                  x1="680"
+                  y1="45"
+                  x2="680"
+                  y2="315"
+                  stroke="#9baac0"
+                  stroke-width="4"
+                />
+
+                <text
+                  x="80"
+                  y="335"
+                  fill="#c7d2e3"
+                  text-anchor="middle"
+                  font-size="14"
+                >
+                  태양
+                </text>
+
+                <text
+                  x="359"
+                  y="335"
+                  fill="#c7d2e3"
+                  text-anchor="middle"
+                  font-size="14"
+                >
+                  물체
+                </text>
+
+                <text
+                  x="680"
+                  y="335"
+                  fill="#c7d2e3"
+                  text-anchor="middle"
+                  font-size="14"
+                >
+                  관찰면
+                </text>
+
+              </svg>
+
+            </div>
+
+
+            <!-- 실험 조절 -->
+            <div class="experiment-controls">
+
+              <!-- 물체 위치 -->
+              <label
+                class="control-row"
+                for="objectPosition"
+              >
+
+                <span>물체의 위치</span>
+
+                <output id="objectPositionValue">
+                  45%
+                </output>
+
+                <input
+                  id="objectPosition"
+                  type="range"
+                  min="0"
+                  max="100"
+                  value="45"
+                />
+
+              </label>
+
+
+              <!-- 태양 겉보기 크기 -->
+              <label
+                class="control-row"
+                for="pathSourceSize"
+              >
+
+                <span>태양의 겉보기 크기</span>
+
+                <output id="pathSourceSizeValue">
+                  100%
+                </output>
+
+                <input
+                  id="pathSourceSize"
+                  type="range"
+                  min="10"
+                  max="100"
+                  value="100"
+                />
+
+              </label>
+
+
+              <!-- 광선 표시 -->
+              <label
+                class="control-row"
+                for="showRays"
+              >
+
+                <span>빛의 경로 표시</span>
+
+                <input
+                  id="showRays"
+                  type="checkbox"
+                  checked
+                />
+
+              </label>
+
+
+              <!-- 초기화 버튼: 항상 동일한 위치 -->
+              <div class="experiment-actions">
+
+                <button
+                  class="secondary-button"
+                  id="pathReset"
+                >
+                  초기화
+                </button>
+
+              </div>
+
+            </div>
+
+
+            <!-- 실시간 관찰 내용 -->
+            <p
+              class="live-observation"
+              id="pathDescription"
+              aria-live="polite"
+            >
+              물체의 위치를 바꿔 보세요.
+            </p>
+
+          </section>
+
+        </div>
+
+
+        <!-- =================================
+             과학적 해설 영역
+        ================================== -->
+
+        <div
+          id="explanationContent"
+          class="modal-content"
+          hidden
+        >
+
+          <!-- 점광원과 면광원 해설 -->
+          <section
+            class="explanation-content"
+            id="sourceExplanation"
+            hidden
+          >
+
+            <span class="eyebrow">
+              CONCEPT 01 · EXPLANATION
+            </span>
+
+            <h3>점광원과 면광원</h3>
+
+            <h4>1. 점광원</h4>
+
+            <p>
+              점광원은 빛이 하나의 점에서 출발한다고 이상화한 광원이다.
+              광원의 크기를 무시할 수 있을 때 사용하며, 한 점에서
+              모든 방향으로 빛을 방출한다고 생각한다.
+            </p>
+
+            <p>
+              점광원에서 출발한 빛은 모든 방향으로 퍼져 나가며,
+              거리가 멀어질수록 빛이 도달하는 면적이 넓어진다.
+              따라서 단위 면적에 도달하는 빛의 양은 거리의 제곱에
+              반비례한다. 이를 역제곱 법칙이라고 한다.
+            </p>
+
+
+            <h4>2. 면광원</h4>
+
+            <p>
+              면광원은 점과 달리 일정한 크기를 가진 광원이다.
+              광원의 모든 지점에서 각각 빛이 방출되므로,
+              하나의 점이 아니라 여러 지점에서 출발한 광선을
+              함께 고려해야 한다.
+            </p>
+
+            <p>
+              예를 들어 태양은 크기가 있는 천체이므로 면광원이다.
+              태양의 위쪽 끝과 아래쪽 끝에서 출발한 빛은
+              서로 다른 방향으로 진행할 수 있다.
+            </p>
+
+
+            <h4>3. 그림자의 형성</h4>
+
+            <p>
+              점광원 앞에 불투명한 물체를 놓으면 물체가 빛을 가리는
+              영역에 그림자가 생긴다. 점광원은 하나의 점에서 빛이
+              출발한다고 가정하므로, 그림자의 경계가 뚜렷하게 나타나며
+              이상적인 모형에서는 본그림자만 형성된다.
+            </p>
+
+            <p>
+              반면 면광원에서는 광원의 각 지점에서 출발한 빛이
+              서로 다른 경로로 진행한다. 이때 물체가 광원 전체를
+              가리는 영역에는 본그림자가 생기고, 광원의 일부에서
+              출발한 빛만 도달하는 영역에는 반그림자가 생긴다.
+            </p>
+
+
+            <h4>4. 본그림자와 반그림자</h4>
+
+            <p>
+              본그림자는 광원의 어느 지점에서 출발한 빛도 도달하지
+              못하는 영역이다. 반그림자는 광원의 일부에서 출발한
+              빛은 도달하지만 나머지 빛은 물체에 가려지는 영역이다.
+              따라서 본그림자는 어둡고, 반그림자는 상대적으로 밝게 보인다.
+            </p>
+
+
+            <div class="concept-highlight">
+              <strong>핵심 정리</strong>
+              <p>
+                점광원은 하나의 점에서 빛이 출발한다고 가정하는 모델로,
+                뚜렷한 본그림자를 만든다. 면광원은 광원의 여러 지점에서
+                빛이 출발하므로 본그림자뿐 아니라 반그림자도 형성할 수 있다.
+              </p>
+            </div>
+
+          </section>
+
+
+          <!-- 태양광 해설 -->
+          <section
+            class="explanation-content"
+            id="pathExplanation"
+            hidden
+          >
+
+            <span class="eyebrow">
+              CONCEPT 02 · EXPLANATION
+            </span>
+
+            <h3>태양광은 정말 평행할까?</h3>
+
+            <h4>1. 태양은 면광원</h4>
+
+            <p>
+              태양은 유한한 크기를 가진 천체이므로 점이 아니라
+              면광원으로 취급한다. 태양 표면의 서로 다른 지점에서
+              출발한 빛은 지구에 도달할 때 완전히 같은 방향을
+              갖지 않는다.
+            </p>
+
+            <p>
+              태양의 위쪽 끝과 아래쪽 끝에서 출발한 빛은
+              서로 다른 방향으로 진행한다. 따라서 실제 태양광은
+              완벽하게 평행한 광선이 아니라 조금씩 다른 방향을 가진다.
+            </p>
+
+
+            <h4>2. 평행광선 근사</h4>
+
+            <p>
+              태양과 지구 사이의 거리는 태양의 지름에 비해 매우 크다.
+              따라서 지구 부근에서 태양의 서로 다른 지점으로부터
+              온 광선 사이의 방향 차이는 작다.
+            </p>
+
+            <p>
+              이 때문에 많은 상황에서는 실제 광선의 방향 차이를
+              무시하고 태양광을 서로 평행한 광선으로 근사한다.
+              이렇게 하면 빛의 진행과 그림자의 형성을 더 간단하게
+              설명할 수 있다.
+            </p>
+
+
+            <h4>3. 태양광과 그림자</h4>
+
+            <p>
+              태양은 면광원이기 때문에 태양광이 물체에 가려지면
+              본그림자와 반그림자가 형성될 수 있다.
+              태양의 위쪽 끝과 아래쪽 끝에서 출발한 광선이
+              서로 다른 경로로 진행하기 때문이다.
+            </p>
+
+
+            <h4>4. 모형을 해석할 때 주의할 점</h4>
+
+            <p>
+              평행광선은 실제 태양광이 수학적으로 완벽한 평행선이라는
+              뜻이 아니다. 실제 광선의 발산이 작기 때문에
+              계산과 설명을 단순화하기 위해 사용하는 근사 모형이다.
+            </p>
+
+
+            <div class="concept-highlight">
+              <strong>핵심 정리</strong>
+              <p>
+                태양은 크기가 있는 면광원이므로 태양 표면의 각 지점에서
+                출발한 빛은 서로 조금씩 다른 방향으로 진행한다.
+                다만 태양과 지구 사이의 거리가 매우 멀기 때문에
+                지구 부근에서는 태양광을 평행광선으로 근사할 수 있다.
+              </p>
+            </div>
+
+          </section>
+
+        </div>
+
+      </div>
+
+
+      <!-- 모달 하단 -->
+      <div class="modal-footer">
+
+        <button
+          class="secondary-button"
+          id="modalBottomClose"
+        >
+          닫기
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>

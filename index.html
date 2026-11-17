@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="일식과 월식에 관한 잘못된 상식을 바로잡는 천문학 교육 웹사이트">
+    <title>일월식, 제대로 알고 있나요?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 헤더 -->
+    <header class="header">
+        <a href="#" class="logo">ECLIPSE <span>LAB</span></a>
+
+        <nav class="navigation">
+            <a href="#home">홈</a>
+            <a href="#topics">오개념 알아보기</a>
+            <a href="#about">사이트 소개</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 메인 소개 영역 -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <span class="eyebrow">ASTRONOMY · SCIENCE GUIDE</span>
+
+                <h1>
+                    우리가 알고 있던<br>
+                    <span>일월식</span>은 정말 맞을까?
+                </h1>
+
+                <p class="hero-description">
+                    익숙하게 접했던 일식과 월식.<br>
+                    하지만 우리가 당연하게 생각했던 설명 중에는
+                    잘못 이해하고 있는 부분도 있습니다.<br>
+                    그림과 과학적 원리를 통해 그 오해를 바로잡아 봅시다.
+                </p>
+
+                <a href="#topics" class="explore-button">
+                    오개념 알아보기
+                    <span>↓</span>
+                </a>
+            </div>
+
+            <div class="hero-visual">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="sun"></div>
+                <div class="earth"></div>
+                <div class="moon"></div>
+                <div class="visual-label label-sun">SUN</div>
+                <div class="visual-label label-earth">EARTH</div>
+                <div class="visual-label label-moon">MOON</div>
+            </div>
+        </section>
+
+        <!-- 주제 카드 영역 -->
+        <section class="topics-section" id="topics">
+
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">EXPLORE MISCONCEPTIONS</span>
+                    <h2>두 가지 오해, 두 가지 과학</h2>
+                </div>
+
+                <p>
+                    사람들이 자주 혼동하는 일월식의 원리.<br>
+                    궁금한 주제를 선택해 자세히 알아보세요.
+                </p>
+            </div>
+
+            <div class="card-container">
+
+                <!-- 첫 번째 카드: 빛의 진행 방향 -->
+                <a href="light.html"
+                   class="topic-card light-card"
+                   aria-label="빛의 진행 방향에 관한 오개념 알아보기">
+
+                    <div class="card-top">
+                        <span class="card-number">01</span>
+                        <span class="card-category">LIGHT & SHADOW</span>
+                    </div>
+
+                    <div class="card-visual light-visual">
+                        <div class="light-source"></div>
+                        <div class="light-ray ray-one"></div>
+                        <div class="light-ray ray-two"></div>
+                        <div class="light-ray ray-three"></div>
+                        <div class="shadow-object"></div>
+                        <div class="shadow-area"></div>
+                    </div>
+
+                    <div class="card-content">
+                        <span class="card-tag">빛의 진행 방향</span>
+
+                        <h3>
+                            태양빛은<br>
+                            정말 평행하게만 진행할까?
+                        </h3>
+
+                        <p>
+                            태양은 점이 아니라 면적을 가진 광원입니다.
+                            빛의 진행 방향과 그림자의 형태를 살펴봅시다.
+                        </p>
+
+                        <div class="card-footer">
+                            <span>점광원과 면광원 · 본그림자와 반그림자</span>
+                            <span class="arrow">↗</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- 두 번째 카드: 개기월식의 붉은색 -->
+                <a href="lunar.html"
+                   class="topic-card moon-card"
+                   aria-label="개기 월식과 블러드 문에 관한 오개념 알아보기">
+
+                    <div class="card-top">
+                        <span class="card-number">02</span>
+                        <span class="card-category">LUNAR ECLIPSE</span>
+                    </div>
+
+                    <div class="card-visual moon-visual">
+                        <div class="eclipse-orbit"></div>
+                        <div class="blood-moon"></div>
+                        <div class="moon-glow"></div>
+                        <span class="moon-visual-text">TOTALITY</span>
+                    </div>
+
+                    <div class="card-content">
+                        <span class="card-tag">개기 월식과 블러드 문</span>
+
+                        <h3>
+                            달은 왜<br>
+                            붉은색으로 변할까?
+                        </h3>
+
+                        <p>
+                            개기 월식 때 달이 붉게 보이는 이유는
+                            단순히 지구의 그림자 때문만은 아닙니다.
+                        </p>
+
+                        <div class="card-footer">
+                            <span>삭과 보름 · 대기 산란과 굴절</span>
+                            <span class="arrow">↗</span>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- 사이트 소개 -->
+        <section class="about-section" id="about">
+            <span class="eyebrow">ABOUT THIS PROJECT</span>
+
+            <h2>
+                보이는 현상 너머의<br>
+                <span>과학적 원리</span>를 이해하다.
+            </h2>
+
+            <p>
+                이 웹사이트는 일식과 월식에 관한 일반적인 오개념을
+                시각적인 자료와 과학적 설명을 통해 바로잡기 위해 제작되었습니다.
+                단순히 정답을 전달하는 것을 넘어, 현상이 나타나는 원리를
+                스스로 이해할 수 있도록 돕는 것을 목표로 합니다.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- 푸터 -->
+    <footer class="footer">
+        <div class="footer-logo">ECLIPSE LAB</div>
+        <p>일식과 월식, 제대로 이해하기</p>
+        <span>ASTRONOMY EDUCATION PROJECT</span>
+    </footer>
+
+</body>
+</html>
